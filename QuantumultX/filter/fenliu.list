@@ -36,8 +36,9 @@ host-suffix, igexin.com, reject
 host-suffix, log.aliyuncs.com, reject
 host-suffix, zlsdk.1rtb.net, reject
 # > 收集用户隐私联盟，若有问题自行设置白名单
-host-keyword, volc, reject
-host-keyword, umeng, reject
+host-suffix, volces.com, direct
+host-keyword, volc, reject-200
+host-keyword, umeng, reject-200
 
 
 
